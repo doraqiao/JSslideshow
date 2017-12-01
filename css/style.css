@@ -1,0 +1,63 @@
+html,body,head,div,a,p{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+}
+body{
+	font-family:Microsoft YaHei;
+}
+/*导航条样式*/
+.nav{
+	width: 1200px;
+	height:60px;
+	margin:0 auto;
+}
+.navDots{
+	height: 60px;
+	width: 300px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	line-height: 60px;
+	background: #fff;
+	color:#666;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.dotActive{
+	background-color:#ffcc00;
+	font-weight:bold;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;;
+}
+
+/*图片样式*/
+.banner{
+	height: 460px;
+	width: 1200px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.bannerImg{
+	height: 460px;
+	width: 1200px;
+	display:none;
+}
+.imgActive{
+	display:block;
+}
+.Img1{
+	background:url("../img/img1.jpg") no-repeat;
+}
+.Img2{
+	background:url("../img/img2.jpg") no-repeat;
+}
+.Img3{
+	background:url("../img/img3.jpg") no-repeat;
+}
+.Img4{
+	background:url("../img/img4.jpg") no-repeat;
+}
